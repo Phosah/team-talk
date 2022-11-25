@@ -18,7 +18,7 @@ import BrandManager from "./assets/brand-manager.png";
           <div class="text-brand-black">
             <img :src="Coins" alt="Coins" />
           </div>
-          <p class="text-xs">18900 points</p>
+          <p class="text-xs text-brand-black">18900 points</p>
         </div>
       </div>
       <div class="flex items-center space-x-3">
@@ -30,7 +30,7 @@ import BrandManager from "./assets/brand-manager.png";
       class="flex items-center justify-between space-x-3 px-6 py-4 border-b border-brand-gray-1 drop-shadow-md"
     >
       <div class=""><img :src="Back" alt="back button" /></div>
-      <div class="font-bold">Content</div>
+      <div class="font-bold text-brand-black">Content</div>
       <div class="font-bold"></div>
     </div>
     <div class="px-6">
